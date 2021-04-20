@@ -20,8 +20,16 @@
         <a href="./index.html" class="link logo"><span class="logo-first">Web</span>Studio</a>
       
         <ul class="list site-nav">
-          <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li class="item current"><a href="./index.html" class="link current">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a>
+
+            <ul class="submenu">
+              <li class="item"><a href=""></a>Веб-сайты</li>
+              <li class="item"><a href=""></a>Приложения</li>
+              <li class="item"><a href=""></a>Дизайн</li>
+              <li class="item"><a href=""></a>Маркетинг</li>
+            </ul>
+          </li>
           <li class="item"><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
@@ -62,7 +70,7 @@
   <!-- Преимущества -->
     <section class="section">
       <div class="container">
-        <h2 class="section-title">Преимущества</h2>
+        <h2 class="section-title hidden-title">Преимущества</h2>
         
         <ul class="list feature-list">
           <li class="item">
@@ -118,15 +126,30 @@
         <h2 class="section-title">Чем мы занимаемся</h2>
         
         <ul class="list works">
-          <li class="item"><img src="./images/box-1.jpeg" alt="пример проекта" width="370" height="294"></li>
-          <li class="item"><img src="./images/box-2.jpeg" alt="пример проекта" width="370" height="294"></li>
-          <li class="item"><img src="./images/box-3.jpeg" alt="пример проекта" width="370" height="294"></li>
+          <li class="item">
+            <div class="thumb">
+              <img src="./images/box-1.jpeg" alt="пример проекта" width="370" height="294">
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="thumb">
+              <img src="./images/box-2.jpeg" alt="пример проекта" width="370" height="294">
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="test-thumb">
+              <img src="./images/box-3.jpeg" alt="пример проекта" width="370" height="294">
+              <div class="test-bcg"><span>Kакой-то текст</span></div>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
 
   <!-- Наша команда -->
-    <section class="section team">
+    <section class="section-wide team">
       <div class="container">
         <h2 class="section-title">Наша команда</h2>
 
@@ -267,7 +290,7 @@
     </section>
 
     <!-- Клиенты -->
-    <section>
+    <section class="section-wide">
       <div class="container container-clients">
         <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="list clients">

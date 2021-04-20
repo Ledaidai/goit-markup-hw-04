@@ -107,11 +107,19 @@ p {
 /* Header */
 
 .header {
-  border-bottom: 1px solid #ececec;
+  min-height: 84px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--bcg-white);
+  border-bottom: 1px solid #1b1717;
+  z-index: 10;
 }
 .header-nav {
   display: flex;
